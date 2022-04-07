@@ -1,4 +1,6 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -6,18 +8,27 @@ body{
 h1{
     font-size: 50px;
 }
-.color-highlight{
-
+.text-highlight {
     color: tomato;
+
+}
+h2 {
+    font-size: 35px;
+
+}
+.container{
+    
+    margin-top: 25px;
+}
+.half-width img{
+    width: 80%;
+    
 }
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+    margin-left: 100px;
 }
-
-.half-width img{
-    width: 100%;
-    padding-top: 25px;
+.half-width p{
+    margin-top: 20px;
 }
